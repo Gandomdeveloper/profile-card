@@ -51,3 +51,13 @@
     padding: 6px 35px;
     margin: 25px 0;
 }
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
