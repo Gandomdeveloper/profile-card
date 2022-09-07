@@ -61,3 +61,13 @@
     font-weight: 500;
     font-size: 30px;
 }
+
+.view-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #ff004f;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+}
