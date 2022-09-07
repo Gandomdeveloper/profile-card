@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #212121;
+}
+
+.profile-card {
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    background: #fff;
+    color: #333;
+}
+
+.cover-pic {
+    display: block;
+    width: 100%;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: -70px;
+    box-shadow: 0 0 0 0px #ff004f;
+    transition: all 0.5s
+}
+
+.profile-pic:hover {
+    box-shadow: 0 0 0 5px #ff004f;
+}
